@@ -1,53 +1,46 @@
-🕷️ Python Web Scraper
+# 🕷️ Python Web Scraper
 
-Data Extraction · Automation · Structured Outputs
+**Data Extraction · Automation · Structured Outputs**
 
-This project is a modular Python web scraping system designed to reliably extract, normalize, and export data from web sources for downstream analytics, reporting, or automation workflows.
+This project is a **modular Python web scraping system** designed to reliably extract, normalize, and export data from web sources for downstream analytics, reporting, or automation workflows.
 
-Built with old-school discipline (respect the web, don’t break things) and modern tooling, this scraper demonstrates how to turn unstructured web content into clean, decision-ready datasets.
+Built with old-school discipline (*respect the web, don’t break things*) and modern tooling, this scraper demonstrates how to turn unstructured web content into **clean, decision-ready datasets**.
 
-🎯 Project Objectives
+---
+
+## 🎯 Project Objectives
 
 This scraper is designed to answer one simple business question:
 
-How do we turn public web data into usable information—consistently and responsibly?
+> **How do we turn public web data into usable information—consistently and responsibly?**
 
-Primary goals:
+### Primary Goals
+- Automate data collection from web pages  
+- Parse and structure messy HTML into clean datasets  
+- Export data in analytics-friendly formats  
+- Handle failures gracefully (timeouts, retries, blocks)  
+- Remain extensible for future targets and pipelines  
 
-Automate data collection from web pages
+---
 
-Parse and structure messy HTML into clean datasets
+## 🧠 Key Features
 
-Export data in analytics-friendly formats
+### HTTP-Based Scraping
+- Uses `requests` with realistic headers  
+- Avoids unnecessary browser overhead when possible  
 
-Handle failures gracefully (timeouts, retries, blocks)
+### HTML Parsing
+- Robust DOM parsing with **BeautifulSoup**  
+- Selector-based extraction for maintainability  
 
-Remain extensible for future targets and pipelines
+### Structured Output
+- Exports to **CSV** and **JSON**  
+- DataFrames ready for **BI**, **ML**, or **dashboards**  
 
-🧠 Key Features
+### Reliability Built In
+- Retry logic with exponential backoff  
+- Timeouts and error handling  
+- Polite request pacing  
 
-HTTP-Based Scraping
+---
 
-Uses requests with realistic headers
-
-Avoids unnecessary browser overhead when possible
-
-HTML Parsing
-
-Robust DOM parsing with BeautifulSoup
-
-Selector-based extraction for maintainability
-
-Structured Output
-
-Exports to CSV and JSON
-
-DataFrames ready for BI, ML, or dashboards
-
-Reliability Built In
-
-Retry logic with exponential backoff
-
-Timeouts and error handling
-
-Polite request pacing
