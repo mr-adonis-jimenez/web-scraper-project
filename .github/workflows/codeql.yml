@@ -17,6 +17,8 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
+      - name: Attest Build Provenance
+  uses: actions/attest-build-provenance@v3.1.0
 
       - name: Set up Python
         uses: actions/setup-python@v4
