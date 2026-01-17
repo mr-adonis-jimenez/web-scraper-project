@@ -40,3 +40,6 @@ jobs:
 
       - name: Perform CodeQL Analysis
         uses: github/codeql-action/analyze@v3
+
+- name: Metrics embed
+  uses: lowlighter/metrics@v3.34
